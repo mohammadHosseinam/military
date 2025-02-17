@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import { routes } from './routes/index.jsx';
 import "./index.css";
+import './app.css';
 
 function App() {
   return (
