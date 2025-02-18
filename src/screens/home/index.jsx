@@ -8,7 +8,7 @@ function Home() {
     <div className='bg-[#F4F5F9] w-full overflow-x-clip'>
       <div className='h-screen flex flex-col'>
         <Header />
-        <div className='bg-[url("/public/images/hiroImage.png")] bg-auto bg-no-repeat bg-center grow '>
+        <div className='bg-[url("/images/hiroImage.png")] bg-auto bg-no-repeat bg-center grow '>
           <div className='flex justify-center items-center w-full h-full bg-black opacity-75'>
             <h1 className='text-white text-2xl font-bold'>سامانه اطلاعات آزمایشگاه های تحقیقاتی نظامی</h1>
           </div>

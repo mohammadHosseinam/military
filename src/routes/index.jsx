@@ -1,3 +1,4 @@
+import AddLab from "../screens/addLab";
 import Dashboard from "../screens/dashboard";
 import Home from "../screens/home";
 import Institute from "../screens/institute";
@@ -17,10 +18,10 @@ export const routes = {
         id: '3',
         path:'/dashboard',
         element:<Dashboard/>
-    }
-
-
-
-
-    
+    },
+    addLab:{
+        id: '4',
+        path:'/add-lab',
+        element:<AddLab/>
+    },
 }

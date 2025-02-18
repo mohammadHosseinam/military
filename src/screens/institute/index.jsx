@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../../layout/header'
 import Footer from '../../layout/footer'
-import ansituImage from "../../../public/images/ansituImage.png"
+import ansituImage from "/images/ansituImage.png"
 function Institute() {
     return (
         <div className='bg-[#F4F5F9]'>
