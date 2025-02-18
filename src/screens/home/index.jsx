@@ -3,7 +3,6 @@ import Header from '../../layout/header'
 import Footer from '../../layout/footer'
 import AnsitutCard from '../../components/AnsitutCard'
 
-
 function Home() {
   return (
     <div className='bg-[#F4F5F9] w-full overflow-x-clip'>
@@ -55,7 +54,6 @@ function Home() {
         </div>
       </div>
       <Footer />
-
     </div>
   )
 }

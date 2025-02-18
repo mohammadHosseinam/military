@@ -1,4 +1,5 @@
 import Home from "../screens/home";
+import Institute from "../screens/institute";
 
 export const routes = {
     home:{
@@ -6,4 +7,9 @@ export const routes = {
         path:'/',
         element:<Home/>
     },
+    institute:{
+        id: '2',
+        path:'/institute',
+        element:<Institute/>
+    }
 }
