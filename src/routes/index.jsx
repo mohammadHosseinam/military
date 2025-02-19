@@ -1,7 +1,9 @@
 import AddLab from "../screens/addLab";
 import Dashboard from "../screens/dashboard";
+import DynamicData from "../screens/dynamicData";
 import Home from "../screens/home";
 import Institute from "../screens/institute";
+import StaticData from "../screens/staticData";
 
 export const routes = {
     home:{
@@ -23,5 +25,15 @@ export const routes = {
         id: '4',
         path:'/add-lab',
         element:<AddLab/>
+    },
+    staticData:{
+        id: '4',
+        path:'/static-data',
+        element:<StaticData/>
+    },
+    dynamicData:{
+        id: '4',
+        path:'/dynamic-data',
+        element:<DynamicData/>
     },
 }

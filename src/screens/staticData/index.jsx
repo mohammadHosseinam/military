@@ -6,7 +6,7 @@ import ChecxboxInput from '../../components/CheckBoxInput';
 import { useSelector } from 'react-redux';
 import PlusIcon from '../../../public/icons/plusIcon';
 
-function AddLab() {
+function StaticData() {
     const handleTextfieldChange = (field) => (e) => {
         // dispatch(setInvoiceSearchParams({ ...invoiceSearchParams, [field]: e.target.value }));
     };
@@ -20,10 +20,10 @@ function AddLab() {
                 <Sidebar />
             </div>
             <div className='grow'>
-                <h1 className='text-2xl font-semibold text-blue-600 mx-10 my-6'>افزودن آزمایشگاه</h1>
+                <h1 className='text-2xl font-semibold text-blue-600 mx-10 my-6'>افزودن اطلاعات صفحات ثابت جدید</h1>
                 <TimeLine step={step} stepsNames={["آزمایشگاه جدید", "افزودن تگ ها"]} />
                 {step == 1 && (<div className='bg-white p-7 w-2/3 mx-auto mt-10 rounded-2xl flex flex-col gap-8'>
-                    <TextField label={"عنوان سایت"} width='' className="min-w-44 grow" value={""} onChange={handleTextfieldChange("buyerId")} />
+                    <TextField label={"انتخاب آزمایشگاه"} width='' className="min-w-44 grow" value={""} onChange={handleTextfieldChange("buyerId")} />
                     <TextField label={"آدرس صفحه"} width='' className="min-w-44 grow" value={""} onChange={handleTextfieldChange("buyerId")} />
                     <TextField label={"سایر توضیحات ضروری"} width='' className="min-w-44 grow" value={""} onChange={handleTextfieldChange("buyerId")} />
                     <div className='flex gap-8'>
@@ -51,4 +51,4 @@ function AddLab() {
     )
 }
 
-export default AddLab
+export default StaticData

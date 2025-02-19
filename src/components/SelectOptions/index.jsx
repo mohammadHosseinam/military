@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import DownArowwIcon from "../../assets/icons/downAroww";
+import DownArowwIcon from "../../../public/icons/downArowwIcon";
+
 
 function SelectOptions({ options = ["item 1", "item 2", "item 3"], selectedOption="", title = "تستی", width = "", className, onChange }) {
     const [value, setValue] = useState(selectedOption);
