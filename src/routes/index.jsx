@@ -3,6 +3,7 @@ import Dashboard from "../screens/dashboard";
 import DynamicData from "../screens/dynamicData";
 import Home from "../screens/home";
 import Institute from "../screens/institute";
+import SeenReport from "../screens/seenReport";
 import StaticData from "../screens/staticData";
 
 export const routes = {
@@ -27,13 +28,18 @@ export const routes = {
         element:<AddLab/>
     },
     staticData:{
-        id: '4',
+        id: '5',
         path:'/static-data',
         element:<StaticData/>
     },
     dynamicData:{
-        id: '4',
+        id: '6',
         path:'/dynamic-data',
         element:<DynamicData/>
+    },
+    seenReport:{
+        id: '7',
+        path:'/seen-report',
+        element:<SeenReport/>
     },
 }
